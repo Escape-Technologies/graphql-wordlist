@@ -22,13 +22,13 @@ mutations
 IasMutation
 LitiumMutation
 GraphQLMutation
+UsersMutationType
 ApplicationMutations
 RootMutations
 PublicMutations
 CommonMutation
 WcsMutation
 AllMutations
-UsersMutationType
 EatnParkMutation
 BiosuisseMutation
 AdminMutation

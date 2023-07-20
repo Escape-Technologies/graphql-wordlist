@@ -57,6 +57,8 @@ GridQuery
 LitiumQuery
 LitiumMutation
 GraphQLMutation
+UsersQueryType
+UsersMutationType
 ApplicationQueries
 ApplicationMutations
 RootMutations
@@ -71,8 +73,6 @@ QueriesF
 WcsQuery
 WcsMutation
 AllMutations
-UsersQueryType
-UsersMutationType
 MiaQuery
 FindSpaceQuery
 EatnParkQuery

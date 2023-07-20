@@ -25,6 +25,7 @@ IasQuery
 GraphQLQuery
 GridQuery
 LitiumQuery
+UsersQueryType
 ApplicationQueries
 queries
 graph
@@ -32,7 +33,6 @@ rootQuery
 CommonQuery
 QueriesF
 WcsQuery
-UsersQueryType
 MiaQuery
 FindSpaceQuery
 EatnParkQuery

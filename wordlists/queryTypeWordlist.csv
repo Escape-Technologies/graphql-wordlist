@@ -1,5 +1,5 @@
 word,count
-Query,45405
+Query,45421
 RootQueryType,1757
 RootQuery,1753
 query_root,743
@@ -26,6 +26,7 @@ IasQuery,6
 GraphQLQuery,6
 GridQuery,6
 LitiumQuery,5
+UsersQueryType,5
 ApplicationQueries,5
 queries,4
 graph,4
@@ -33,7 +34,6 @@ rootQuery,4
 CommonQuery,4
 QueriesF,4
 WcsQuery,4
-UsersQueryType,4
 MiaQuery,4
 FindSpaceQuery,4
 EatnParkQuery,4

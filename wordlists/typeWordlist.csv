@@ -1,7 +1,7 @@
 word,count
-Query,45398
-Mutation,37578
-Subscription,11538
+Query,45414
+Mutation,37593
+Subscription,11541
 RootQueryType,1757
 RootQuery,1753
 RootMutation,1649
@@ -58,6 +58,8 @@ GridQuery,6
 LitiumQuery,5
 LitiumMutation,5
 GraphQLMutation,5
+UsersQueryType,5
+UsersMutationType,5
 ApplicationQueries,5
 ApplicationMutations,5
 RootMutations,5
@@ -72,8 +74,6 @@ QueriesF,4
 WcsQuery,4
 WcsMutation,4
 AllMutations,4
-UsersQueryType,4
-UsersMutationType,4
 MiaQuery,4
 FindSpaceQuery,4
 EatnParkQuery,4

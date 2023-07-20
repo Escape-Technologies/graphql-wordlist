@@ -1,5 +1,5 @@
 word,count
-Mutation,37578
+Mutation,37593
 RootMutation,1649
 RootMutationType,1597
 mutation,595
@@ -23,13 +23,13 @@ mutations,6
 IasMutation,6
 LitiumMutation,5
 GraphQLMutation,5
+UsersMutationType,5
 ApplicationMutations,5
 RootMutations,5
 PublicMutations,5
 CommonMutation,4
 WcsMutation,4
 AllMutations,4
-UsersMutationType,4
 EatnParkMutation,4
 BiosuisseMutation,4
 AdminMutation,4

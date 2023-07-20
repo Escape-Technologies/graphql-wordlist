@@ -1,21 +1,5 @@
 import { Categories } from "./types.ts";
 
-/*
-
-word	the encountered word
-overall count	the overall number of encounters of the word
-operation type name count	the word is the typename of an operation (QueryTypename, MutationTypename, SubscriptionTypename)
-operation field count	the word is a field of an operation (a query, mutation, or subscription)
-query type name count	the word is the QueryTypename
-query field count	the word is a query field
-mutation type name count	the word is the MutationTypename
-mutation field count	the word is a mutation field
-subscription type name count	the word is the SubscriptionTypename
-subscription field count	the word is a subscription field
-argument count	the word is an argument name
-type name count	the word is a type name
-field name count	the word is a field name (operation or object field)
-*/
 const descriptions: {
   [category in (typeof Categories)[keyof typeof Categories]]: string;
 } & { word: string } = {
