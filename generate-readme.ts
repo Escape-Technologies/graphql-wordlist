@@ -70,11 +70,11 @@ const README = `# graphql-wordlist
 
 The only graphql wordlists you'll ever need.
 
-Built using more than 90k distinct GraphQL schemas.
+Built using more than 60k distinct GraphQL schemas.
 
 Wordlists are available in \`./wordlists\` directory. The complete wordlist (with every category) is \`./wordlists/wordlist.csv\`.
 
-Read more in our dedicated blog post: @TODO
+Learn more about how we crafted the wordlist in our dedicated blog post: [escape.tech/blog/graphql-wordlist/](escape.tech/blog/graphql-wordlist/)
 
 ## Categories
 
