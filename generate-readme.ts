@@ -74,7 +74,7 @@ Built using more than 60k distinct GraphQL schemas.
 
 Wordlists are available in \`./wordlists\` directory. The complete wordlist (with every category) is \`./wordlists/wordlist.csv\`.
 
-Learn more about how we crafted the wordlist in our dedicated blog post: [escape.tech/blog/graphql-wordlist/](escape.tech/blog/graphql-wordlist/)
+Learn more about how we crafted the wordlist in our dedicated blog post: [https://escape.tech/blog/graphql-wordlist/](https://escape.tech/blog/graphql-wordlist/)
 
 ## Categories
 
