@@ -2,7 +2,7 @@
 
 The only graphql wordlists you'll ever need.
 
-Built using more than 60k distinct GraphQL schemas.
+Built using more than 60k distinct GraphQL schemas, collected using [Goctopus](https://github.com/Escape-Technologies/goctopus)
 
 Wordlists are available in `./wordlists` directory. The complete wordlist (with every category) is `./wordlists/wordlist.csv`.
 
