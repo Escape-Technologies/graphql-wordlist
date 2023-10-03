@@ -28,12 +28,16 @@ const words: Word[] = lines.map((line) => {
   return wordCount;
 });
 
+const stringFromWordlist = (wordlist: Word[], limit?: number) =>
+  wordlist
+    .map((word) => word.word)
+    .slice(0, limit)
+    .join("\n") + "\n";
+
 const generateWordlistForCategory = (category: Categories) => {
   const wordsForCategory = words
     .filter((word) => word[category] > 0)
     .sort((a, b) => b[category] - a[category]);
-
-  const wordlist = wordsForCategory.map((word) => word.word).join("\n");
 
   const csv = [
     ["word", "count"],
@@ -42,7 +46,22 @@ const generateWordlistForCategory = (category: Categories) => {
 
   const csvString = csv.map((line) => line.join(",")).join("\n");
 
-  Deno.writeTextFileSync(`./wordlists/${category}Wordlist.txt`, wordlist);
+  Deno.writeTextFileSync(
+    `./wordlists/${category}Wordlist.txt`,
+    stringFromWordlist(wordsForCategory)
+  );
+  Deno.writeTextFileSync(
+    `./wordlists/1k/${category}Wordlist-1k.txt`,
+    stringFromWordlist(wordsForCategory, 1000)
+  );
+  Deno.writeTextFileSync(
+    `./wordlists/10k/${category}Wordlist-10k.txt`,
+    stringFromWordlist(wordsForCategory, 10000)
+  );
+  Deno.writeTextFileSync(
+    `./wordlists/100k/${category}Wordlist-100k.txt`,
+    stringFromWordlist(wordsForCategory, 100000)
+  );
 
   Deno.writeTextFileSync(`./wordlists/${category}Wordlist.csv`, csvString);
 };
